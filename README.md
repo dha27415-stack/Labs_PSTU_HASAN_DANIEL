@@ -2,4 +2,4 @@
 
 ### Хасан Даниэль
 Студент группы РИС-26-4б
-![My photo](./images/photo.jpg)
+<img src="./images/photo.jpg" width="30%" />
