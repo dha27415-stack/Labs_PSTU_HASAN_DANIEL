@@ -2,7 +2,7 @@
 using namespace std;
 int mian(){
     int n;
-    cout << "put the numper pleas";
+    cout << "put th numper pleas";
     cin >>n;
   for (int i = 1; i <= n; i++)
   {
@@ -15,4 +15,5 @@ int mian(){
 
   }
   return 0;
+
 }
