@@ -6,7 +6,7 @@
 .vscode/
 .DS_Store
 Thumbs.db
-*ilk
-*obj
-*pdb
+*.ilk
+*.obj
+*.pdb
 *vc140.pdb
