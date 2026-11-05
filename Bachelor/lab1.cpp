@@ -43,5 +43,4 @@ int main() {
     cout << "3) n++>m   = " << (res3 ? "true" : "false") << endl;
 
     return 0;
-    
 }
