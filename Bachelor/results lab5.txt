@@ -1,0 +1,11 @@
+Enter size N (max 100): 3
+Enter 3 elements:
+13 8 28
+
+Resulting Matrix N x N:
+1       1       1
+1       1       1
+11      6       26
+..............................................
+
+
