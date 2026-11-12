@@ -6,7 +6,7 @@
 #include <iomanip>
 
 using namespace std;
-
+ 
 int main() {
     // Настройка кодировки консоли для поддержки кириллицы в комментариях
     SetConsoleCP(1251);
