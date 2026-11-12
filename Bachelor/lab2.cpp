@@ -1,48 +1,46 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
-#include <cstdio>
-#include <clocale>
 #include <cmath>
+#include <clocale>
+#include <windows.h>
+#include <iomanip>
 
 using namespace std;
 
-double factorial(int n) {
-    double fact = 1.0;
-    for (int i = 1; i <= n; i++) {
-        fact *= i;
-    }
-    return fact;
-}
-
 int main() {
-    setlocale(LC_ALL, "Russian.UTF8");
+    // Настройка кодировки консоли для поддержки кириллицы в комментариях
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
-    int n_terms = 10;
-    double sum = 0.0;
+    cout << "=== Laboratory Work 2. Variant 23 ===" << endl;
 
-    printf("=========================================\n");
-    printf(" Лабораторная работа №2. Вариант 23\n");
-    printf("=========================================\n\n");
-    printf("%-5s | %-20s | %-20s\n", "n", "a_n", "Сумма (S)");
-    printf("-----------------------------------------\n");
+    int total_terms; // Переменная для ввода количества членов ряда пользователем
+    cout << "Enter number of terms: ";
+    cin >> total_terms;
 
-    for (int n = 1; n <= n_terms; n++) {
-      
-        double num = factorial(n);
-        
-        
-        double den = pow((double)n, sqrt((double)n));
-        
-       
-        double a_n = num / den;
-        
-        
+    double sum = 0.0;       // Переменная для накопления суммы ряда
+    double factorial = 1.0; // Переменная для последовательного расчета факториала n!
+
+    // Цикл для вычисления суммы введенного числа членов ряда: a_n = n! / (n^(sqrt(n)))
+    for (int n = 1; n <= total_terms; n++) {
+        factorial *= n;
+
+        // Вычисление знаменателя: n в степени квадратного корня из n
+        double denominator = pow(n, sqrt(n));
+
+        // Вычисление значения текущего члена ряда a_n
+        double a_n = factorial / denominator;
+
+        // Добавление члена ряда к общей сумме
         sum += a_n;
 
-        printf("%-5d | %-20.6f | %-20.6f\n", n, a_n, sum);
+        // Вывод значения каждого отдельного члена
+        cout << "Term " << n << " = " << a_n << endl;
     }
 
-    printf("-----------------------------------------\n");
-    printf("\nИтоговая сумма 10 членов ряда: %.6f\n", sum);
+    // Вывод итоговой суммы с высокой точностью
+    cout << fixed << setprecision(6);
+    cout << "\nTotal sum = " << sum << endl;
 
     return 0;
 }

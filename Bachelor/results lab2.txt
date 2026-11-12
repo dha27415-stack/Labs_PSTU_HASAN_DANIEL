@@ -1,0 +1,14 @@
+=== Laboratory Work 2. Variant 23 ===
+Enter number of terms: 10
+Term 1 = 1
+Term 2 = 0.750428
+Term 3 = 0.894856
+Term 4 = 1.5
+Term 5 = 3.28274
+Term 6 = 8.93838
+Term 7 = 29.276
+Term 8 = 112.511
+Term 9 = 497.778
+Term 10 = 2497.38
+
+Total sum = 3153.315775
