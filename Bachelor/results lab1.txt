@@ -16,3 +16,4 @@ Enter integer m: 10
 1) n---m   = -5
 2) m--<-n  = false
 3) n++>m   = false
+ 
