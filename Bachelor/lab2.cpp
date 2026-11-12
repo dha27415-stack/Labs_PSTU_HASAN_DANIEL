@@ -13,7 +13,7 @@ int main() {
     SetConsoleOutputCP(1251);
 
     cout << "=== Laboratory Work 2. Variant 23 ===" << endl;
-
+ 
     int total_terms; // Переменная для ввода количества членов ряда пользователем
     cout << "Enter number of terms: ";
     cin >> total_terms;
