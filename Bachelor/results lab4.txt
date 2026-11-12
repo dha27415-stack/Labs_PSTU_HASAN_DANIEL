@@ -5,7 +5,7 @@ Enter the starting index K (from 0 to 4): 3
 
 Ring printing to the left, starting from index 3:
 23 10 28 13 33
-
+ 
 
 ============= (Объяснение результатов выполнения:)
 
