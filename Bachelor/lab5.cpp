@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+ 
 int main() {
     // Объявление констант и переменных для размерности массива
     const int MAX_SIZE = 100;
