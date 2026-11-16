@@ -1,0 +1,9 @@
+--- Part (a): Array starting with an EVEN number ---
+Enter array size (n1): 5
+Enter 5 integers (first must be EVEN): 2 13 44 55 66
+Result after left shift: 44 55 66 2 13
+
+--- Part (b): Array starting with an ODD number ---
+Enter array size (n2): 5
+Enter 5 numbers (first must be ODD): 11 33 17 13 3
+Result after right shift: 17 13 3 11 33
