@@ -1,0 +1,2 @@
+Enter an English sentence (words separated by '_'): THIS_IS_A_TABLE
+Translation: ETO_STOL
