@@ -1,0 +1,4 @@
+Side length between (0,0) and (3,4): 5
+Point M(1, 1) belongs to triangle: YES
+Point M(1, 1) belongs to convex polygon (4 vertices): YES
+Point M(1, 1) vs (10,10) in convex polygon (5 vertices): NO
