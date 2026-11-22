@@ -1,0 +1,70 @@
+Enter initial number of stadiums (at least 5): 5
+
+--- Stadium #1 ---
+Enter stadium name: FC_Barcelona
+Enter year built: 1899
+Enter number of courts: 10
+Enter sports types: 18
+
+--- Stadium #2 ---
+Enter stadium name: Realmadrid
+Enter year built: 1902
+Enter number of courts: 9
+Enter sports types: 15
+
+--- Stadium #3 ---
+Enter stadium name: Bayren_Munich
+Enter year built: 1900
+Enter number of courts: 5
+Enter sports types: 9
+
+--- Stadium #4 ---
+Enter stadium name: Manchester_City
+Enter year built: 1880
+Enter number of courts: 7
+Enter sports types: 13
+
+--- Stadium #5 ---
+Enter stadium name: AC_Milan
+Enter year built: 1899
+Enter number of courts: 8
+Enter sports types: 11
+
+=== Binary File Content ===
+1. Name: FC_Barcelona  | Year: 1899 | Courts: 10 | Sports: 18
+2. Name: Realmadrid | Year: 1902 | Courts: 9 | Sports: 15
+3. Name: Bayren_Munich | Year: 1900 | Courts: 5 | Sports: 9
+4. Name: Manchester_City | Year: 1880 | Courts: 7 | Sports: 13
+5. Name: AC_Milan | Year: 1899 | Courts: 8 | Sports: 11
+
+Enter minimum year (delete stadiums built BEFORE this year): 1899
+Deleted records count: 1
+
+=== Binary File Content ===
+1. Name: FC_Barcelona  | Year: 1899 | Courts: 10 | Sports: 18
+2. Name: Realmadrid | Year: 1902 | Courts: 9 | Sports: 15
+3. Name: Bayren_Munich | Year: 1900 | Courts: 5 | Sports: 9
+4. Name: AC_Milan | Year: 1899 | Courts: 8 | Sports: 11
+
+Enter target record number to insert 2 elements BEFORE: 3
+
+Enter 2 new stadiums to insert before #3:
+--- New Stadium #1 ---
+Enter stadium name: Manchester_United
+Enter year built: 1907
+Enter number of courts: 4
+Enter sports types: 13
+--- New Stadium #2 ---
+Enter stadium name: Liverpool
+Enter year built: 1905
+Enter number of courts: 11
+Enter sports types: 9
+Successfully inserted 2 elements before #3.
+
+=== Binary File Content ===
+1. Name: FC_Barcelona  | Year: 1899 | Courts: 10 | Sports: 18
+2. Name: Realmadrid | Year: 1902 | Courts: 9 | Sports: 15
+3. Name: Manchester_United | Year: 1907 | Courts: 4 | Sports: 13
+4. Name: Liverpool | Year: 1905 | Courts: 11 | Sports: 9
+5. Name: Bayren_Munich | Year: 1900 | Courts: 5 | Sports: 9
+6. Name: AC_Milan | Year: 1899 | Courts: 8 | Sports: 11
